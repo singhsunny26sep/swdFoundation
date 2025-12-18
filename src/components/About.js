@@ -16,6 +16,16 @@ function About() {
               </div>
               <h1 className="text-2xl font-bold text-gray-900">SWDF Foundation</h1>
             </div>
+            <div className="hidden md:flex space-x-8">
+              <Link to="/" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Home</Link>
+              <Link to="/about" className="text-red-600 font-medium">About</Link>
+              <Link to="/services" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Services</Link>
+              <Link to="/products" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Products</Link>
+              <Link to="/gallery" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Gallery</Link>
+              <Link to="/volunteer" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Volunteer</Link>
+              <Link to="/donate" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">Donate</Link>
+              <Link to="/contact" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Contact</Link>
+            </div>
             <div className="md:hidden">
               <button className="text-gray-700 hover:text-red-600">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

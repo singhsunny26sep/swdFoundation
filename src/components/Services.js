@@ -6,107 +6,118 @@ function Services() {
   const services = [
     {
       id: 1,
-      name: "Solar System Design & Installation",
-      description: "Complete end-to-end solar system design and professional installation services",
-      price: "Starting from ₹1,50,000",
-      icon: "🏗️",
+      name: "Free Medical Camps",
+      description: "Comprehensive health checkups and treatment for underserved communities",
+      price: "Free",
+      icon: "🏥",
       features: [
-        "Site assessment and feasibility study",
-        "Custom system design",
-        "Professional installation",
-        "System testing and commissioning",
-        "Performance warranty"
+        "General health screenings",
+        "Specialist consultations",
+        "Free medicines distribution",
+        "Health awareness programs",
+        "Preventive care services"
       ]
     },
     {
       id: 2,
-      name: "Solar Maintenance & Support",
-      description: "Comprehensive maintenance services to keep your solar system performing optimally",
-      price: "₹5,000/year",
-      icon: "🔧",
+      name: "Emergency Medical Care",
+      description: "24/7 emergency medical services and ambulance support",
+      price: "Subsidized",
+      icon: "🚑",
       features: [
-        "Regular system inspection",
-        "Cleaning and maintenance",
-        "Performance monitoring",
-        "24/7 technical support",
-        "Emergency repairs"
+        "24/7 emergency hotline",
+        "Mobile ambulance service",
+        "Critical care support",
+        "Hospital referral system",
+        "Emergency surgery support"
       ]
     },
     {
       id: 3,
-      name: "Energy Audit & Consultation",
-      description: "Professional energy assessment to optimize your solar investment",
-      price: "₹10,000",
-      icon: "📊",
+      name: "Maternal Health Program",
+      description: "Specialized care for pregnant women and newborn babies",
+      price: "Free",
+      icon: "👶",
       features: [
-        "Energy consumption analysis",
-        "Solar potential assessment",
-        "ROI calculations",
-        "Government subsidy guidance",
-        "Custom recommendations"
+        "Prenatal care programs",
+        "Safe delivery services",
+        "Neonatal care",
+        "Postnatal support",
+        "Family planning guidance"
       ]
     },
     {
       id: 4,
-      name: "Solar Battery Installation",
-      description: "Expert installation of solar battery storage systems for energy independence",
-      price: "₹50,000",
-      icon: "🔋",
+      name: "Pediatric Care",
+      description: "Comprehensive healthcare services for children and adolescents",
+      price: "Free",
+      icon: "🧒",
       features: [
-        "Battery system design",
-        "Professional installation",
-        "System integration",
-        "Safety testing",
-        "User training"
+        "Childhood vaccinations",
+        "Growth monitoring",
+        "Nutritional counseling",
+        "Developmental assessments",
+        "School health programs"
       ]
     },
     {
       id: 5,
-      name: "Solar Panel Upgradation",
-      description: "Upgrade your existing solar system with latest technology panels",
-      price: "₹75,000",
-      icon: "⬆️",
+      name: "Mobile Health Clinics",
+      description: "Bringing healthcare directly to remote and rural areas",
+      price: "Free",
+      icon: "🚐",
       features: [
-        "System assessment",
-        "Upgrade planning",
-        "Panel replacement",
-        "System optimization",
-        "Performance guarantee"
+        "Fully equipped medical vans",
+        "Portable diagnostic equipment",
+        "Telemedicine capabilities",
+        "Rural area coverage",
+        "Community health workers"
       ]
     },
     {
       id: 6,
-      name: "Training & Education",
-      description: "Comprehensive training programs for solar system owners and installers",
-      price: "₹15,000",
-      icon: "🎓",
+      name: "Health Education",
+      description: "Community health education and awareness programs",
+      price: "Free",
+      icon: "📚",
       features: [
-        "System operation training",
-        "Maintenance workshops",
-        "Safety protocols",
-        "Troubleshooting guides",
-        "Certification programs"
+        "Disease prevention workshops",
+        "Nutrition education",
+        "Hygiene promotion",
+        "Mental health awareness",
+        "Lifestyle modification programs"
       ]
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-100">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
       {/* Navigation */}
-      <nav className="bg-white shadow-lg border-b border-gray-200">
+      <nav className="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center mr-3">
-                <span className="text-white text-2xl">☀️</span>
+              <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mr-3">
+                <span className="text-white text-2xl">🏥</span>
               </div>
-              <h1 className="text-2xl font-bold text-gray-900">SolarGrid</h1>
+              <span className="text-xl font-bold text-gray-900">SWDF Foundation</span>
             </div>
             <div className="hidden md:flex space-x-8">
-              <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Home</Link>
-              <Link to="/products" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Products</Link>
-              <Link to="/services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Services</Link>
-              <Link to="/dashboard" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">Dashboard</Link>
+              <Link to="/" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Home</Link>
+              <Link to="/about" className="text-gray-700 hover:text-red-600 font-medium transition-colors">About</Link>
+              <Link to="/services" className="text-red-600 font-medium">Services</Link>
+              <Link to="/products" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Products</Link>
+              <Link to="/gallery" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Gallery</Link>
+              <Link to="/volunteer" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Volunteer</Link>
+              <Link to="/donate" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">Donate</Link>
+              <Link to="/contact" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Contact</Link>
+            </div>
+            <div className="md:hidden">
+              <button className="text-gray-700 hover:text-red-600">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -115,9 +126,10 @@ function Services() {
       {/* Header */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Our Medical Services</h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Professional solar services from design to maintenance. We provide comprehensive solutions for all your solar energy needs.
+            Comprehensive healthcare services provided free of cost to underserved communities. 
+            Our medical team is dedicated to ensuring quality healthcare reaches everyone.
           </p>
         </div>
       </section>
@@ -129,12 +141,12 @@ function Services() {
             {services.map((service) => (
               <div key={service.id} className="bg-white rounded-xl p-6 border border-gray-200 shadow-lg hover:shadow-xl transition-all duration-300">
                 <div className="text-center mb-4">
-                  <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-4xl text-blue-600">{service.icon}</span>
+                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span className="text-4xl text-red-600">{service.icon}</span>
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{service.name}</h3>
                   <p className="text-gray-600 mb-4">{service.description}</p>
-                  <p className="text-2xl font-bold text-blue-600 mb-4">{service.price}</p>
+                  <p className="text-2xl font-bold text-red-600 mb-4">{service.price}</p>
                 </div>
 
                 <div className="mb-6">
@@ -149,9 +161,9 @@ function Services() {
                   </ul>
                 </div>
 
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg transition-colors">
-                  Get Quote
-                </button>
+                <Link to="/contact" className="w-full bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded-lg transition-colors text-center block">
+                  Learn More
+                </Link>
               </div>
             ))}
           </div>
@@ -159,40 +171,65 @@ function Services() {
       </section>
 
       {/* Process Section */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Process</h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Medical Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-blue-600">1️⃣</span>
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl text-red-600">1️⃣</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Consultation</h3>
-              <p className="text-gray-600">Free assessment and consultation</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Registration</h3>
+              <p className="text-gray-600">Patient registration and medical history collection</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-blue-600">2️⃣</span>
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl text-red-600">2️⃣</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Design</h3>
-              <p className="text-gray-600">Custom system design and planning</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Diagnosis</h3>
+              <p className="text-gray-600">Comprehensive medical examination and diagnosis</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-blue-600">3️⃣</span>
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl text-red-600">3️⃣</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Installation</h3>
-              <p className="text-gray-600">Professional installation service</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Treatment</h3>
+              <p className="text-gray-600">Free treatment, medicines, and medical procedures</p>
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-blue-600">4️⃣</span>
+              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl text-red-600">4️⃣</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Support</h3>
-              <p className="text-gray-600">Ongoing maintenance and support</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Follow-up</h3>
+              <p className="text-gray-600">Regular follow-up care and health monitoring</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Statistics Section */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-red-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Impact</h2>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="text-center bg-white rounded-xl p-6 shadow-lg">
+              <div className="text-4xl font-bold text-red-600 mb-2">100,000+</div>
+              <div className="text-gray-600 font-medium">Patients Treated</div>
+            </div>
+            <div className="text-center bg-white rounded-xl p-6 shadow-lg">
+              <div className="text-4xl font-bold text-blue-600 mb-2">500+</div>
+              <div className="text-gray-600 font-medium">Medical Camps</div>
+            </div>
+            <div className="text-center bg-white rounded-xl p-6 shadow-lg">
+              <div className="text-4xl font-bold text-green-600 mb-2">50+</div>
+              <div className="text-gray-600 font-medium">Mobile Clinics</div>
+            </div>
+            <div className="text-center bg-white rounded-xl p-6 shadow-lg">
+              <div className="text-4xl font-bold text-purple-600 mb-2">25</div>
+              <div className="text-gray-600 font-medium">Years of Service</div>
             </div>
           </div>
         </div>
@@ -202,14 +239,14 @@ function Services() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-lg">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-600 mb-6">Contact us today for a free consultation and quote for your solar project.</p>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Need Medical Assistance?</h2>
+            <p className="text-gray-600 mb-6">Contact us today to learn more about our free medical services and how we can help you and your family.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                Request Quote
-              </button>
-              <Link to="/products" className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-3 rounded-lg font-semibold border border-gray-300 transition-colors">
-                View Products
+              <Link to="/contact" className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                Contact Us
+              </Link>
+              <Link to="/volunteer" className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-3 rounded-lg font-semibold border border-gray-300 transition-colors">
+                Join Our Team
               </Link>
             </div>
           </div>
