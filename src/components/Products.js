@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Header';
 import Footer from './Footer';
 
 function Products() {
@@ -56,36 +57,7 @@ function Products() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
-      {/* Navigation */}
-      <nav className="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center">
-              <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mr-3">
-                <span className="text-white text-2xl">🏥</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">SWDF Foundation</span>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <Link to="/" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Home</Link>
-              <Link to="/about" className="text-gray-700 hover:text-red-600 font-medium transition-colors">About</Link>
-              <Link to="/services" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Services</Link>
-              <Link to="/products" className="text-red-600 font-medium">Products</Link>
-              <Link to="/gallery" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Gallery</Link>
-              <Link to="/volunteer" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Volunteer</Link>
-              <Link to="/donate" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">Donate</Link>
-              <Link to="/contact" className="text-gray-700 hover:text-red-600 font-medium transition-colors">Contact</Link>
-            </div>
-            <div className="md:hidden">
-              <button className="text-gray-700 hover:text-red-600">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <Header />
 
       {/* Header */}
       <section className="py-16 px-4 sm:px-6 lg:px-8">

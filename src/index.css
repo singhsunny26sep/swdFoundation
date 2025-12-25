@@ -128,12 +128,12 @@ code {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #dc2626;
+  background: #16a34a;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b91c1c;
+  background: #15803d;
 }
 
 /* Hover Effects */
