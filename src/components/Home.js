@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import founderImage from '../img/founder.jpeg';
+import girlImage from '../img/girl.jpg';
 
 function Home() {
   return (
@@ -37,6 +38,15 @@ function Home() {
         </div>
       </nav>
 
+      {/* Banner Section */}
+      <section className="relative w-full h-96 overflow-hidden">
+        <img
+          src={girlImage}
+          alt="NGO Girl Banner"
+          className="w-full h-full object-cover"
+        />
+      </section>
+
       {/* Hero Section */}
       <section className="relative py-32 px-4 sm:px-6 lg:px-8 overflow-hidden">
         {/* Background Elements */}
@@ -69,17 +79,7 @@ function Home() {
             </span>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-bold text-gray-900 mb-8 leading-tight">
-            <span className="bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
-              Healing Lives,
-            </span>
-            <br />
-            <span className="text-gray-800">Building</span>
-            <br />
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Hope
-            </span>
-          </h1>
+        
           
           <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
             SWDF Foundation is dedicated to providing <span className="font-semibold text-red-600">free medical care</span>, 
