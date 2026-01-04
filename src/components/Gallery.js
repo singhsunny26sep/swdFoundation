@@ -19,7 +19,7 @@ function Gallery() {
   const galleryImages = [
     {
       id: 1,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Free Medical Camp - Rural Village',
       category: 'medical',
       description: 'Our medical team providing free healthcare services to underserved communities in rural areas.',
@@ -28,7 +28,7 @@ function Gallery() {
     },
     {
       id: 2,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Children Education Program',
       category: 'education',
       description: 'Teaching children in remote villages with our innovative learning programs.',
@@ -37,7 +37,7 @@ function Gallery() {
     },
     {
       id: 3,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Mobile Health Clinic',
       category: 'medical',
       description: 'Our state-of-the-art mobile clinic bringing healthcare directly to remote areas.',
@@ -46,7 +46,7 @@ function Gallery() {
     },
     {
       id: 4,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Community Health Awareness',
       category: 'community',
       description: 'Health education session for women in rural communities.',
@@ -55,7 +55,7 @@ function Gallery() {
     },
     {
       id: 5,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Volunteer Training Program',
       category: 'volunteers',
       description: 'Training session for new medical volunteers joining our mission.',
@@ -64,7 +64,7 @@ function Gallery() {
     },
     {
       id: 6,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Maternal Health Program',
       category: 'medical',
       description: 'Providing prenatal care and support to expecting mothers.',
@@ -73,7 +73,7 @@ function Gallery() {
     },
     {
       id: 7,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'School Supply Distribution',
       category: 'education',
       description: 'Distributing educational materials to underprivileged children.',
@@ -82,7 +82,7 @@ function Gallery() {
     },
     {
       id: 8,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Medical Equipment Donation',
       category: 'facilities',
       description: 'Donation of modern medical equipment to local health centers.',
@@ -91,7 +91,7 @@ function Gallery() {
     },
     {
       id: 9,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Emergency Response Team',
       category: 'volunteers',
       description: 'Our dedicated emergency response volunteers ready to help in crisis situations.',
@@ -100,7 +100,7 @@ function Gallery() {
     },
     {
       id: 10,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Village Health Checkup',
       category: 'medical',
       description: 'Comprehensive health screening for entire village populations.',
@@ -109,7 +109,7 @@ function Gallery() {
     },
     {
       id: 11,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Digital Learning Center',
       category: 'education',
       description: 'Modern computer lab set up in rural schools for digital education.',
@@ -118,7 +118,7 @@ function Gallery() {
     },
     {
       id: 12,
-      src: '/api/placeholder/400/300',
+      src: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80',
       title: 'Annual Fundraising Event',
       category: 'community',
       description: 'Community members coming together to support our mission.',
