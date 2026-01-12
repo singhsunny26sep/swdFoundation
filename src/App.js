@@ -8,6 +8,7 @@ import Donate from './components/Donate';
 import Contact from './components/Contact';
 import Volunteer from './components/Volunteer';
 import Gallery from './components/Gallery';
+import Dashboard from './components/Dashboard';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/volunteer" element={<Volunteer />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

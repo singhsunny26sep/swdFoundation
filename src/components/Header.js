@@ -42,6 +42,14 @@ function Header() {
               Services
             </Link>
             <Link
+              to="/dashboard"
+              className={`font-medium transition-colors duration-200 ${
+                isActive('/dashboard') ? 'text-red-600' : 'text-gray-700 hover:text-red-600'
+              }`}
+            >
+              Dashboard
+            </Link>
+            <Link
               to="/gallery"
               className={`font-medium transition-colors duration-200 ${
                 isActive('/gallery') ? 'text-red-600' : 'text-gray-700 hover:text-red-600'
