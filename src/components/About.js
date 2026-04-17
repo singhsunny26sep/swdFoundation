@@ -22,8 +22,142 @@ function About() {
         </div>
       </section>
 
-      {/* Our Story */}
+      {/* Our Vision */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Vision</h2>
+              <div className="space-y-4 text-gray-600">
+                <p>
+                  <span className="text-red-600 font-semibold">"A glimpse of our purpose"</span>
+                </p>
+                <p>
+                  The vision of Swa. Wamanrao Deshmukh Education & Welfare Foundation's centers on ensuring access to 
+                  essential necessities for the needy and underprivileged worldwide. We try to spread awareness and draw 
+                  support to address these critical requirements, seeking to create a more fair future where every individual has 
+                  the potential to succeed.
+                </p>
+                <p>
+                  Our objective is to cultivate dignity, security, and hope for all, generating a global movement of empathy 
+                  and collaborative action.
+                </p>
+              </div>
+            </div>
+            <div className="order-1 lg:order-2 relative">
+              <div className="bg-gradient-to-br from-red-50 to-blue-50 rounded-2xl p-8 border border-red-100">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">🎯</div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Our Vision</h3>
+                  <p className="text-gray-600 italic">"A more fair future where every individual has the potential to succeed"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Mission */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-red-50 to-blue-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <div className="bg-white rounded-2xl p-8 border border-red-100 shadow-lg">
+                <div className="text-center">
+                  <div className="text-6xl mb-4">💪</div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Our Mission</h3>
+                  <p className="text-gray-600 italic">"Ensuring essential services and opportunities for all"</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
+              <div className="space-y-4 text-gray-600">
+                <p>
+                  The foundation is committed to improving the lives of the less fortunate by 
+                  providing comprehensive healthcare, quality education, and robust community 
+                  support.
+                </p>
+                <p>
+                  Their mission is to ensure that everyone, regardless of their socio-economic 
+                  status, has access to essential services and opportunities for a better future.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Objectives */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Objectives</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="bg-red-50 rounded-xl p-6 border border-red-200 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">🏥</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Quality Healthcare</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Guarantee that the underprivileged have access to essential healthcare services</li>
+                <li>• Provide free or subsidized treatment to those who cannot afford it</li>
+              </ul>
+            </div>
+            <div className="bg-blue-50 rounded-xl p-6 border border-blue-200 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">📚</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Educational Opportunities</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Provide educational support to empower youth</li>
+                <li>• Help them become independent and self-sufficient</li>
+              </ul>
+            </div>
+            <div className="bg-purple-50 rounded-xl p-6 border border-purple-200 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">👩‍💼</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Empower Women</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Organizing health camps for women</li>
+                <li>• Providing expectant women with guidance on their wellbeing</li>
+              </ul>
+            </div>
+            <div className="bg-green-50 rounded-xl p-6 border border-green-200 hover:shadow-lg transition-shadow">
+              <div className="text-4xl mb-4">🌾</div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Rural Development</h3>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Improve living conditions and sustainability in rural areas</li>
+                <li>• Improving the quality of life for rural citizens</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Healthcare Initiatives */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-red-600">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold text-white text-center mb-4">Healthcare Initiatives</h2>
+          <p className="text-red-100 text-center mb-12 text-lg">SWA Wamanrao Deshmukh Education and Welfare Foundation's Daughter Branch</p>
+          <div className="bg-white rounded-2xl p-8 shadow-xl">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="text-center">
+                <div className="text-6xl mb-4">🏥</div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Bapji Jeevandeep Multispecialty Charitable Hospital</h3>
+                <p className="text-red-600 font-semibold">Accessible & Affordable Healthcare</p>
+              </div>
+              <div className="space-y-4 text-gray-600">
+                <p>
+                  The foundation treats over <span className="text-red-600 font-bold">10,000 patients indoors</span> and{" "}
+                  <span className="text-red-600 font-bold">100,000 patients outdoors</span> annually.
+                </p>
+                <p>
+                  They focus on providing accessible and affordable healthcare to those in need, ensuring that 
+                  even the most marginalized communities receive proper medical attention.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Story */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>

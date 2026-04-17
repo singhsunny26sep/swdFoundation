@@ -104,20 +104,28 @@ function Footer() {
 
         {/* Contact Info */}
         <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="flex items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="flex items-start">
               <span className="text-red-400 mr-3">📍</span>
               <div>
-                <p className="text-white font-medium">Medical Center</p>
-                <p className="text-gray-400">123 Health Street, Care City, India</p>
+                <p className="text-white font-medium">Head Office</p>
+                <p className="text-gray-400">Bapji Jeevandeep Multispeciality Hospital, Chalisgaon, Dist - Jalgaon</p>
               </div>
             </div>
 
             <div className="flex items-center">
               <span className="text-red-400 mr-3">📞</span>
               <div>
-                <p className="text-white font-medium">Emergency Line</p>
-                <p className="text-gray-400">+91 98765 43210</p>
+                <p className="text-white font-medium">Phone</p>
+                <p className="text-gray-400">8149343628</p>
+              </div>
+            </div>
+
+            <div className="flex items-center">
+              <span className="text-red-400 mr-3">🚨</span>
+              <div>
+                <p className="text-white font-medium">Emergency</p>
+                <p className="text-gray-400">7972833428</p>
               </div>
             </div>
 
@@ -125,7 +133,7 @@ function Footer() {
               <span className="text-red-400 mr-3">✉️</span>
               <div>
                 <p className="text-white font-medium">Email</p>
-                <p className="text-gray-400">info@healthcarefoundation.org</p>
+                <p className="text-gray-400">SWDWFoundation01@gmail.com</p>
               </div>
             </div>
           </div>

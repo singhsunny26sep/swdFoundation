@@ -13,6 +13,7 @@ import Dashboard from './components/Dashboard';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gray-50">
         <Routes>
           <Route path="/" element={<Home />} />

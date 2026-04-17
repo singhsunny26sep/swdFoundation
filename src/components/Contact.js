@@ -67,9 +67,9 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Head Office</h3>
                     <p className="text-gray-600">
-                      123 Hope Street, Unity City<br />
-                      New Delhi, 110001<br />
-                      India
+                      Bapji Jeevandeep Multispeciality Hospital<br />
+                      Chalisgaon, Dist - Jalgaon<br />
+                      Maharashtra, India
                     </p>
                   </div>
                 </div>
@@ -81,9 +81,8 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      Main: +91 98765 43210<br />
-                      Toll-free: 1800 123 4567<br />
-                      Emergency: +91 98765 43211
+                      Phone: 8149343628<br />
+                      Emergency: 7972833428
                     </p>
                   </div>
                 </div>
@@ -95,9 +94,8 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
                     <p className="text-gray-600">
-                      General: info@hopefoundation.org<br />
-                      Volunteer: volunteer@hopefoundation.org<br />
-                      Donations: donate@hopefoundation.org
+                      General: SWDWFoundation01@gmail.com<br />
+                      Volunteer: drsandeepd.sd@gmail.com
                     </p>
                   </div>
                 </div>
@@ -109,9 +107,8 @@ function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Office Hours</h3>
                     <p className="text-gray-600">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 9:00 AM - 2:00 PM<br />
-                      Sunday: Closed
+                      Same as hospital hours<br />
+                      Available for inquiries and support
                     </p>
                   </div>
                 </div>
@@ -248,10 +245,11 @@ function Contact() {
             <div className="h-96 bg-gray-200 flex items-center justify-center">
               <div className="text-center">
                 <div className="text-6xl mb-4">🗺️</div>
-                <h3 className="text-xl font-semibold text-gray-700 mb-2">Interactive Map</h3>
+                <h3 className="text-xl font-semibold text-gray-700 mb-2">Find Us</h3>
                 <p className="text-gray-600">
-                  123 Hope Street, Unity City, New Delhi 110001<br />
-                  You can integrate Google Maps or other map services here
+                  Bapji Jeevandeep Multispeciality Hospital<br />
+                  Chalisgaon, Dist - Jalgaon, Maharashtra<br />
+                  You can integrate Google Maps here
                 </p>
               </div>
             </div>
