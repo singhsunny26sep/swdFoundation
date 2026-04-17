@@ -19,18 +19,18 @@ function Footer() {
               emergency care, and health education programs.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              <button className="text-gray-400 hover:text-red-400 transition-colors">
                 <span className="text-xl">📘</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-red-400 transition-colors">
                 <span className="text-xl">🐦</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-red-400 transition-colors">
                 <span className="text-xl">📷</span>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+              </button>
+              <button className="text-gray-400 hover:text-red-400 transition-colors">
                 <span className="text-xl">💼</span>
-              </a>
+              </button>
             </div>
           </div>
 
@@ -56,29 +56,29 @@ function Footer() {
             <h4 className="text-lg font-semibold mb-4">Medical Services</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <button className="text-gray-400 hover:text-red-400 transition-colors">
                   Free Medical Camps
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <button className="text-gray-400 hover:text-red-400 transition-colors">
                   Emergency Care
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <button className="text-gray-400 hover:text-red-400 transition-colors">
                   Maternal Health
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <button className="text-gray-400 hover:text-red-400 transition-colors">
                   Mobile Clinics
-                </a>
+                </button>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-red-400 transition-colors">
+                <button className="text-gray-400 hover:text-red-400 transition-colors">
                   Health Education
-                </a>
+                </button>
               </li>
             </ul>
           </div>
@@ -145,15 +145,15 @@ function Footer() {
             © 2024 SWDF Foundation. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-red-400 transition-colors text-sm">
+            <button className="text-gray-400 hover:text-red-400 transition-colors text-sm">
               Privacy Policy
-            </a>
-            <a href="#" className="text-gray-400 hover:text-red-400 transition-colors text-sm">
+            </button>
+            <button className="text-gray-400 hover:text-red-400 transition-colors text-sm">
               Terms of Service
-            </a>
-            <a href="#" className="text-gray-400 hover:text-red-400 transition-colors text-sm">
+            </button>
+            <button className="text-gray-400 hover:text-red-400 transition-colors text-sm">
               Patient Rights
-            </a>
+            </button>
           </div>
         </div>
       </div>
