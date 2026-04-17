@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import founderImage from '../img/girl.jpg';
-import girlImage from '../img/girl.jpg';
-import logoImage from '../img/logo.jpeg';
 
 function Home() {
   const facilities = [
@@ -237,7 +235,7 @@ function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <div className="mb-6">
-                <img src={girlImage} alt="Priya Sharma" className="w-16 h-16 rounded-full object-cover" />
+                <img src={founderImage} alt="Priya Sharma" className="w-16 h-16 rounded-full object-cover" />
               </div>
               <blockquote className="text-gray-700 italic mb-4">
                 "SWDF's education program gave me the tools I needed to succeed. Their tutoring and school supplies
