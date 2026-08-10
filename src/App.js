@@ -9,6 +9,8 @@ import Contact from './components/Contact';
 import Volunteer from './components/Volunteer';
 import Gallery from './components/Gallery';
 import Dashboard from './components/Dashboard';
+import OurPrograms from './components/OurPrograms';
+import News from './components/News';
 
 function App() {
   return (
@@ -19,10 +21,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/our-programs" element={<OurPrograms />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/volunteer" element={<Volunteer />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/news" element={<News />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>

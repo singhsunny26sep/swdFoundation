@@ -60,10 +60,26 @@ function Header() {
             <Link
               to="/volunteer"
               className={`font-medium transition-colors duration-200 ${
-                isActive('/volunteer') ? 'text-red-600' : 'text-gray-700 hover:text-red-600'
+                isActive('/volunteer') ? 'text-blue-700' : 'text-gray-700 hover:text-blue-700'
               }`}
             >
-              Volunteer
+              Get Involved
+            </Link>
+            <Link
+              to="/news"
+              className={`font-medium transition-colors duration-200 ${
+                isActive('/news') ? 'text-blue-700' : 'text-gray-700 hover:text-blue-700'
+              }`}
+            >
+              News & Features
+            </Link>
+            <Link
+              to="/our-programs"
+              className={`font-medium transition-colors duration-200 ${
+                isActive('/our-programs') ? 'text-blue-700' : 'text-gray-700 hover:text-blue-700'
+              }`}
+            >
+              Our Programs
             </Link>
             <Link
               to="/donate"
